@@ -1,5 +1,5 @@
-git config core.autocrlf false
 while true ; do
+git config core.autocrlf false
 for (( j=0; j <= 10; ++j )) ; do
 for (( i=0; i <= 1000; ++i )) ; do
 echo ".">>dots && git add . && git commit -m "." ; done 
