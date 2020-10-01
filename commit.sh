@@ -1,4 +1,4 @@
-cd C:\\stretch-test && git config core.autocrlf false
+git config core.autocrlf false
 while true ; do
 for (( j=0; j <= 10; ++j )) ; do
 for (( i=0; i <= 1000; ++i )) ; do
